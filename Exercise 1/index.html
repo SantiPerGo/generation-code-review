@@ -1,0 +1,50 @@
+<!-- 
+  GitHub Users API Program
+  + This program makes an HTTP petition to the GitHub Users API with the fetch method
+  + Shows the user or the error on the screen
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <!-- Fix: href -->
+      <link rel="stylesheet" href="assets/css/styles.css">
+      
+      <title>GitHub User API</title>
+  </head>
+  <body>
+    <!-- Feat: added main box -->
+    <main class="box" id="box">
+      <!-- Feat: added wrapper div -->
+      <div class="wrapper">
+        <h1>GitHub User API</h1>
+        <p><label for="username">Enter the username:</label></p>
+        <p><input id="username" type="text" placeholder="username"></p>
+        <p><button onclick="displayUser()">Search</button></p>
+      </div>
+
+      <!-- Feat: added wrapper div -->
+      <div class="wrapper" id="user-div">
+        <!-- Feat: changed p tags to h tags -->
+        <!-- Feat: changed class to id -->
+        <h2 id="name"></h2>
+
+        <!-- Feat: added tag -->
+        <h3 id="location"></h3>
+
+        <!-- Feat: added form and button -->
+        <h4>
+          <form id="blog" target="_blank">
+              <button type="submit">Blog</button>
+          </form>
+        </h4>
+      </div>
+    </main>
+
+    <!-- Fix: src -->
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
