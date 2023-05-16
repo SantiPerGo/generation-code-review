@@ -4,4 +4,5 @@
 Exercises:
     <ol>
     	<li>GitHub User API</li>
+    	<li>Guest List Form</li>
     </ol>
