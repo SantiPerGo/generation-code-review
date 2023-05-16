@@ -1,7 +1,3 @@
-// This application creates a guest list.
-// Guests can be added via a form
-// You can remove guests from the list using the button
-
 // Changed var to const declaration and variable name
 const form = document.querySelector("#form");
 
